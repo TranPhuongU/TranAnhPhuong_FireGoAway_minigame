@@ -13,7 +13,6 @@ public static class SaveAndLoad
     static string SavePath =>
         Path.Combine(Application.persistentDataPath, "level_progress.json");
 
-    // ⭐ đảm bảo luôn có data
     static void EnsureLoaded()
     {
         if (data != null) return;
@@ -29,16 +28,12 @@ public static class SaveAndLoad
             Save();
         }
     }
-
-    // ===== SAVE =====
     public static void Save()
     {
         EnsureLoaded();
         string json = JsonUtility.ToJson(data, true);
         File.WriteAllText(SavePath, json);
     }
-
-    // ===== QUERY =====
     public static bool IsLevelUnlocked(int levelIndex)
     {
         EnsureLoaded();

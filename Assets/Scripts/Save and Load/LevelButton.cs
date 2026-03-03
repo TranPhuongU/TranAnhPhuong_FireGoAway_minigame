@@ -49,7 +49,6 @@ public class LevelButton : MonoBehaviour
             return Mathf.Max(0, parsed - 1);
         }
 
-        Debug.LogWarning($"Cannot parse level index from {objName}");
         return 0;
     }
     void UpdateVisual(bool unlocked)

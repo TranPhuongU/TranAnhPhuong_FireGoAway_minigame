@@ -16,7 +16,7 @@ public class CameraFitTilted : MonoBehaviour
     [Header("Camera Offset")]
     public float forwardOffset = 10f;
 
-    float currentSpacing = 10f; // ⭐ cache spacing từ level
+    float currentSpacing = 10f; 
 
     void Awake()
     {
@@ -28,8 +28,6 @@ public class CameraFitTilted : MonoBehaviour
     {
         FitCamera();
     }
-
-    // ⭐ LevelLoader sẽ gọi cái này
     public void SetSpacing(float spacing)
     {
         currentSpacing = spacing;
@@ -48,23 +46,19 @@ public class CameraFitTilted : MonoBehaviour
         float totalWidth = boardWidth + horizontalCellsPadding * 2f * spacing;
         float totalHeight = boardHeight + verticalCellsPadding * 2f * spacing;
 
-        // ⭐ center grid
         Vector3 center = new Vector3(
             (gridManager.cols - 1) * spacing * 0.5f,
             0f,
             (gridManager.rows - 1) * spacing * 0.5f
         );
 
-        // ⭐ tilt camera
         transform.rotation = Quaternion.Euler(FIXED_TILT, 0f, 0f);
 
-        // ⭐ follow center
         Vector3 pos = transform.position;
         pos.x = center.x;
         pos.z = center.z - forwardOffset;
         transform.position = pos;
 
-        // ⭐ fit ortho
         float screenRatio = (float)Screen.width / Screen.height;
         float targetRatio = totalWidth / totalHeight;
 

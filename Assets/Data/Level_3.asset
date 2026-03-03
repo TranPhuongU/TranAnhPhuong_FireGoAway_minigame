@@ -12,44 +12,52 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6149d8784a6c49b4f8344235a55b2dee, type: 3}
   m_Name: Level_3
   m_EditorClassIdentifier: 
-  rows: 3
+  rows: 4
   cols: 3
   spacing: 10
   tiles:
   - gridX: 0
     gridY: 2
-    pipeType: 5
+    pipeType: 0
     initialRotation: 0
   - gridX: 1
     gridY: 2
-    pipeType: 0
-    initialRotation: 0
+    pipeType: 2
+    initialRotation: 180
   - gridX: 2
     gridY: 2
-    pipeType: 0
-    initialRotation: 0
+    pipeType: 2
+    initialRotation: 180
   - gridX: 2
-    gridY: 0
-    pipeType: 3
-    initialRotation: 0
-  - gridX: 2
-    gridY: 1
-    pipeType: 6
-    initialRotation: 0
-  - gridX: 1
-    gridY: 0
-    pipeType: 4
-    initialRotation: 0
-  - gridX: 0
-    gridY: 1
-    pipeType: 1
-    initialRotation: 0
-  - gridX: 1
-    gridY: 1
-    pipeType: 1
-    initialRotation: 0
-  - gridX: 0
     gridY: 0
     pipeType: 2
     initialRotation: 0
+  - gridX: 2
+    gridY: 1
+    pipeType: 1
+    initialRotation: 0
+  - gridX: 1
+    gridY: 0
+    pipeType: 1
+    initialRotation: 0
+  - gridX: 0
+    gridY: 1
+    pipeType: 0
+    initialRotation: 0
+  - gridX: 1
+    gridY: 1
+    pipeType: 0
+    initialRotation: 0
+  - gridX: 0
+    gridY: 0
+    pipeType: 6
+    initialRotation: 0
+  - gridX: 0
+    gridY: 3
+    pipeType: 5
+    initialRotation: 0
+  - gridX: 1
+    gridY: 3
+    pipeType: 2
+    initialRotation: 90
   rotation: 25
