@@ -34,12 +34,12 @@ MonoBehaviour:
     initialRotation: 0
   - gridX: 0
     gridY: 1
-    pipeType: 4
-    initialRotation: 180
+    pipeType: 2
+    initialRotation: 0
   - gridX: 1
     gridY: 1
-    pipeType: 3
-    initialRotation: 180
+    pipeType: 4
+    initialRotation: 0
   - gridX: 1
     gridY: 2
     pipeType: 1

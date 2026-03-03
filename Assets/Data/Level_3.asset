@@ -18,12 +18,12 @@ MonoBehaviour:
   tiles:
   - gridX: 0
     gridY: 2
-    pipeType: 0
+    pipeType: 2
     initialRotation: 0
   - gridX: 1
     gridY: 2
-    pipeType: 2
-    initialRotation: 180
+    pipeType: 3
+    initialRotation: 0
   - gridX: 2
     gridY: 2
     pipeType: 2
@@ -58,6 +58,6 @@ MonoBehaviour:
     initialRotation: 0
   - gridX: 1
     gridY: 3
-    pipeType: 2
-    initialRotation: 90
+    pipeType: 0
+    initialRotation: 0
   rotation: 25
