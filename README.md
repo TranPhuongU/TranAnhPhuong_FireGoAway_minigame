@@ -4,5 +4,5 @@
 
 # 🖼 Giao diện tạo level
 
-![Screenshot 1](<img width="1098" height="789" alt="Screenshot 2026-03-04 105722" src="https://github.com/user-attachments/assets/3fa208d3-5a78-4841-92f8-32d3b4697d8a" />
+![Screenshot 1](<img width="1105" height="797" alt="image" src="https://github.com/user-attachments/assets/33c7f051-5582-42f5-b5bb-c8d3cd18dfa8" />
 )
