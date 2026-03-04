@@ -40,7 +40,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2663908612974440581}
-  m_Mesh: {fileID: -8909774088296986173, guid: e441378e40f3d6647a5fd221be1893df, type: 3}
+  m_Mesh: {fileID: -8909774088296986173, guid: f5b2414595e6103468383d4510a0a8ee, type: 3}
 --- !u!23 &166554553414362908
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -61,9 +61,9 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 7701936454499124359, guid: e441378e40f3d6647a5fd221be1893df, type: 3}
-  - {fileID: 8281190552839236090, guid: e441378e40f3d6647a5fd221be1893df, type: 3}
-  - {fileID: 3286861301070677930, guid: e441378e40f3d6647a5fd221be1893df, type: 3}
+  - {fileID: 7701936454499124359, guid: f5b2414595e6103468383d4510a0a8ee, type: 3}
+  - {fileID: 8281190552839236090, guid: f5b2414595e6103468383d4510a0a8ee, type: 3}
+  - {fileID: 3286861301070677930, guid: f5b2414595e6103468383d4510a0a8ee, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -125,7 +125,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7084132369157638031}
-  m_Mesh: {fileID: -2546680932130884900, guid: e441378e40f3d6647a5fd221be1893df, type: 3}
+  m_Mesh: {fileID: -2546680932130884900, guid: 2e8035994b0bda543bdba82049c9b7ff, type: 3}
 --- !u!23 &8478881784660732696
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -146,8 +146,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 3780671244086486322, guid: e441378e40f3d6647a5fd221be1893df, type: 3}
-  - {fileID: 6699446615349125189, guid: e441378e40f3d6647a5fd221be1893df, type: 3}
+  - {fileID: 880774007180850119, guid: 2e8035994b0bda543bdba82049c9b7ff, type: 3}
+  - {fileID: 6699446615349125189, guid: 2e8035994b0bda543bdba82049c9b7ff, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -216,14 +216,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aced5fd44bc628e4d8f64600f28d63a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  anim: {fileID: 0}
   pipeType: 2
   gridX: 0
   gridY: 0
   pipeModel: {fileID: 194546766864321701}
-  normalMaterial: {fileID: 6699446615349125189, guid: f686d38c82debe24c859e5b49190db92, type: 3}
+  normalMaterial: {fileID: 6699446615349125189, guid: 2e8035994b0bda543bdba82049c9b7ff, type: 3}
   connectedMaterial: {fileID: 2100000, guid: 8c14ef8f1a76a884bab8065fa2da5317, type: 2}
-  pipeBodyMaterial: {fileID: 6699446615349125189, guid: e441378e40f3d6647a5fd221be1893df, type: 3}
+  pipeBodyMaterial: {fileID: 6699446615349125189, guid: 2e8035994b0bda543bdba82049c9b7ff, type: 3}
   cachedRenderer: {fileID: 8478881784660732696}
 --- !u!65 &2497129023070463056
 BoxCollider:

@@ -51,9 +51,9 @@ MonoBehaviour:
   gridX: 0
   gridY: 0
   pipeModel: {fileID: 4737850423536265300}
-  normalMaterial: {fileID: 6699446615349125189, guid: f686d38c82debe24c859e5b49190db92, type: 3}
+  normalMaterial: {fileID: 6699446615349125189, guid: 9b2487ae48757474ebbddb0c773098af, type: 3}
   connectedMaterial: {fileID: 2100000, guid: 8c14ef8f1a76a884bab8065fa2da5317, type: 2}
-  pipeBodyMaterial: {fileID: 6699446615349125189, guid: e441378e40f3d6647a5fd221be1893df, type: 3}
+  pipeBodyMaterial: {fileID: 6699446615349125189, guid: 9b2487ae48757474ebbddb0c773098af, type: 3}
   cachedRenderer: {fileID: 7681825415483549196}
 --- !u!65 &-5954994640456798100
 BoxCollider:
@@ -116,7 +116,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7018014101822199520}
-  m_Mesh: {fileID: -1902784437506899280, guid: e441378e40f3d6647a5fd221be1893df, type: 3}
+  m_Mesh: {fileID: -1902784437506899280, guid: 9b2487ae48757474ebbddb0c773098af, type: 3}
 --- !u!23 &7681825415483549196
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -137,8 +137,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 3780671244086486322, guid: e441378e40f3d6647a5fd221be1893df, type: 3}
-  - {fileID: 6699446615349125189, guid: e441378e40f3d6647a5fd221be1893df, type: 3}
+  - {fileID: 880774007180850119, guid: 9b2487ae48757474ebbddb0c773098af, type: 3}
+  - {fileID: 6699446615349125189, guid: 9b2487ae48757474ebbddb0c773098af, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -200,7 +200,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8892176587176455660}
-  m_Mesh: {fileID: -8909774088296986173, guid: e441378e40f3d6647a5fd221be1893df, type: 3}
+  m_Mesh: {fileID: -8909774088296986173, guid: f5b2414595e6103468383d4510a0a8ee, type: 3}
 --- !u!23 &7431403790157220706
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -221,9 +221,9 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 7701936454499124359, guid: e441378e40f3d6647a5fd221be1893df, type: 3}
-  - {fileID: 8281190552839236090, guid: e441378e40f3d6647a5fd221be1893df, type: 3}
-  - {fileID: 3286861301070677930, guid: e441378e40f3d6647a5fd221be1893df, type: 3}
+  - {fileID: 7701936454499124359, guid: f5b2414595e6103468383d4510a0a8ee, type: 3}
+  - {fileID: 8281190552839236090, guid: f5b2414595e6103468383d4510a0a8ee, type: 3}
+  - {fileID: 3286861301070677930, guid: f5b2414595e6103468383d4510a0a8ee, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
