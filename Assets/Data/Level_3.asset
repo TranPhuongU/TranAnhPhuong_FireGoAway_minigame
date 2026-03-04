@@ -16,48 +16,44 @@ MonoBehaviour:
   cols: 3
   spacing: 10
   tiles:
-  - gridX: 0
-    gridY: 2
-    pipeType: 2
-    initialRotation: 0
   - gridX: 1
-    gridY: 2
-    pipeType: 3
-    initialRotation: 0
-  - gridX: 2
-    gridY: 2
-    pipeType: 2
-    initialRotation: 180
-  - gridX: 2
-    gridY: 0
-    pipeType: 2
-    initialRotation: 0
-  - gridX: 2
-    gridY: 1
-    pipeType: 1
-    initialRotation: 0
-  - gridX: 1
-    gridY: 0
-    pipeType: 1
-    initialRotation: 0
-  - gridX: 0
-    gridY: 1
-    pipeType: 0
-    initialRotation: 0
-  - gridX: 1
-    gridY: 1
-    pipeType: 0
-    initialRotation: 0
-  - gridX: 0
     gridY: 0
     pipeType: 6
     initialRotation: 0
-  - gridX: 0
-    gridY: 3
+  - gridX: 2
+    gridY: 2
     pipeType: 5
     initialRotation: 0
+  - gridX: 2
+    gridY: 0
+    pipeType: 2
+    initialRotation: 0
+  - gridX: 2
+    gridY: 1
+    pipeType: 2
+    initialRotation: 270
+  - gridX: 1
+    gridY: 1
+    pipeType: 1
+    initialRotation: 270
+  - gridX: 0
+    gridY: 1
+    pipeType: 2
+    initialRotation: 90
+  - gridX: 0
+    gridY: 2
+    pipeType: 1
+    initialRotation: 90
+  - gridX: 0
+    gridY: 3
+    pipeType: 2
+    initialRotation: 90
   - gridX: 1
     gridY: 3
-    pipeType: 0
+    pipeType: 1
     initialRotation: 0
+  - gridX: 2
+    gridY: 3
+    pipeType: 3
+    initialRotation: 270
   rotation: 25

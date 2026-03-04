@@ -32,7 +32,7 @@ public class PipeGridManager : MonoBehaviour
 
     public void BuildGrid()
     {
-        grid = new PipeTile[rows, cols];
+        grid = new PipeTile[cols, rows];
 
         foreach (var t in allTiles)
         {
@@ -116,5 +116,5 @@ public class PipeGridManager : MonoBehaviour
             GameManager.instance.GameStateCallBack(GameState.Win);
     }
 
-    bool InBounds(Vector2Int p) => p.x >= 0 && p.x < rows && p.y >= 0 && p.y < cols;
+    bool InBounds(Vector2Int p) => p.x >= 0 && p.x < cols && p.y >= 0 && p.y < rows;
 }
